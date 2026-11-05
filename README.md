@@ -1,5 +1,9 @@
 # Palette Atelier · 森林配色画室
 
+**[▶ 在线体验森林配色画室](https://mecony.github.io/palette-atelier/)**
+
+无需下载或登录，使用 Chrome 等浏览器即可打开；可以导入自己的参考图，也可以先体验内置的「森林来信」。
+
 把参考图里的颜色收集成自己的调色盘。童话绘本风的浏览器绘画辅助工具，支持区域主色提取、手动取色、明暗分析与换色实验，用户图片完全在浏览器本地处理。
 
 **这是参考图分析与配色工具，不是绘画软件或 AI 自动上色服务。**
@@ -19,7 +23,9 @@
 
 ## 使用
 
-无需安装 Node 依赖。从仓库下载 ZIP 解压后，在项目根目录运行：
+直接访问 [在线工作台](https://mecony.github.io/palette-atelier/) 即可使用。
+
+如需本地运行，无需安装 Node 依赖。从仓库下载 ZIP 解压后，在项目根目录运行：
 
 ```sh
 python -m http.server 8000
@@ -33,7 +39,9 @@ python -m http.server 8000
 
 ## GitHub Pages
 
-本仓库已包含根目录 `index.html` 和 `.nojekyll`。在 Settings → Pages 选择 Deploy from a branch、`main`、`/(root)` 并保存即可。**启用前不视为在线站点，部署成功后再把 GitHub 返回的地址加入 README。**
+在线地址：**https://mecony.github.io/palette-atelier/**
+
+通过 GitHub Pages 发布，首页为根目录的 `index.html`。发布设置为 `main` 分支、`/(root)`，保留 `.nojekyll`。更新代码后，等待 Pages 部署完成即可访问新版本。
 
 ## 算法与边界
 
